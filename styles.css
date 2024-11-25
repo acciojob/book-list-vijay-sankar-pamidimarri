@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+body{
+    height: 100vh;
+    width: 100vh;
+  }
+th{
+    padding: 80px;
+}
+.table{
+    border-bottom: 4px solid black;
+}
+.table,.tableh5{
+    display: flex;
+    justify-content: space-between;
+}
+#section{
+    margin-left: 100px;
+}
+input{
+    width: 500px;
+    margin-bottom: 10px;
+}
+#inputs{
+ margin-bottom: 140px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: 0px solid;
+    padding: 7px;
+}
+.tableh5{
+  /* height: 10px; */
+  padding: 0;
+  background-color: rgb(141, 139, 139);
+  border: 1px solid black;
+  margin-bottom: 1px;
+}
+.tableh5 > *{
+    /* align-content: center; */
+    /* background-color: red; */
+    /* color: white; */
+    padding-left: 30px;
+}
+.tableh5 > button{
+ background-color:rgb(141, 139, 139);
+ color: red;
+font-size: 20px;
+font-weight: 1000;
+ position: relative;
+ right: 20px;
+}
